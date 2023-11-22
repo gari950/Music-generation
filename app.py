@@ -10,7 +10,7 @@ def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
 	return response.content
 
-st.set_page_config(page_title="Music Generation App",layout="wide")
+st.set_page_config(page_title="Music Generation App")
 #st.markdown('<style> [theme] backgroundColor="#FFFFFF" </style>', unsafe_allow_html=True)
 page_bg_img = '''
 <style>
